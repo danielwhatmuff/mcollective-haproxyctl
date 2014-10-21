@@ -16,6 +16,13 @@ haproxyctl at /usr/bin/haproxyctl
 
 Alternate installation locations will require updates within the ../agent/haproxyctl.rb file
 
+Installation
+-----------
+
+Copy the haproxyctl.rb and haproxyctl.ddl to the mcollective agent directory.
+
+Restart the mcollective service to load it in.
+
 Usage
 -----------
 
